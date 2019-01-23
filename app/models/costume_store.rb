@@ -9,5 +9,6 @@ class CreateCostumeStores < ActiveRecord::Base
        t.boolean :in_business
        t.time :opening_time
        t.time :closing_time
-    end
+     end
+   end
 end
