@@ -12,5 +12,4 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
         t.text :long_description
      end
    end
-
 end
