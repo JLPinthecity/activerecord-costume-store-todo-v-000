@@ -12,4 +12,5 @@ Class HauntedHouse < ActiveRecord::Base
         t.description :long_description
      end
    end
+
 end
