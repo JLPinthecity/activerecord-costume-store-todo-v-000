@@ -9,8 +9,7 @@ class CreateCostumes < ActiveRecord::Base
        t.integer :price
        t.text :size
        t.text :image_url
-       t.timestamp :created_at
-       t.timestamp :updated_at
+       t.timestamps
      end
    end
 
