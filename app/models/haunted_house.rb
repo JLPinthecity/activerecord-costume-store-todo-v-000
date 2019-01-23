@@ -1,7 +1,7 @@
 Class HauntedHouse < ActiveRecord::Base
 
-    def change
-      create_table :haunted_houses do |t|
+   def change
+     create_table :haunted_houses do |t|
         t.string :name
         t.string :location
         t.string :theme
@@ -10,5 +10,6 @@ Class HauntedHouse < ActiveRecord::Base
         t.date :opening_date
         t.date :closing_date
         t.description :long_description
-    end
+     end
+   end
 end
