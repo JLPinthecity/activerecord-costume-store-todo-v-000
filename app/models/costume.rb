@@ -11,6 +11,7 @@ class CreateCostumes < ActiveRecord::Base
        t.text :image_url
        t.timestamp :created_at
        t.timestamp :updated_at
-    end
+     end
+   end
 
 end
